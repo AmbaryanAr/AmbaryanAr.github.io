@@ -1,0 +1,17 @@
+.user_data{
+	background: #2c733f;
+	padding: 5px 15px;
+	display: inline-flex;
+	align-items: center;
+	position: fixed;
+	left: 0px;
+	bottom: 0px;
+	font-weight: bold;
+	color: white;
+	border-radius: 5px;
+}
+
+.user_data img {
+	border-radius: 50%;
+	margin-right: 10px;
+}
