@@ -9,7 +9,7 @@ VK.init(function() {
 }, '5.131');
 
 function init(){
-	VK.api("user.get", {"fields": "photo_50,first_name,last_name", "v":"5.73"}, function (data) {
+	VK.api("users.get", {"fields": "photo_50,first_name,last_name", "v":"5.73"}, function (data) {
 		console.log(data);
 		//user_name = data.response.first_name + " " + data.response.last_name;
 		//user_icon = data.response.photo_50;
