@@ -10,8 +10,8 @@ VK.init(function() {
 
 function init(){
 	VK.api("user.get", {"fields": "photo_50,first_name,last_name", "v":"5.73"}, function (data) {
-		user_name = data.response[0].first_name + " " + data.response[0].last_name;
-		user_icon = data.response[0].photo_50;
+		user_name = data.response.first_name + " " + data.response.last_name;
+		user_icon = data.response.photo_50;
 		_data = data
 		var user_data = documentcreateElement("div");
 		user_data.className = "user_data";
