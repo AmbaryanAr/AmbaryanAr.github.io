@@ -1,3 +1,4 @@
+var user_name = ""
 vkBridge.send("VKWebAppInit", {});
 vkBridge.send('VKWebAppGetUserInfo').then(data => {
     // Обработка полученных данных
